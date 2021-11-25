@@ -1,0 +1,202 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+section {
+	padding-top: 40px	
+}
+/* Начало головы */
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 1500px;
+	margin: 0 auto; 
+}
+.header {
+	background: url('../img/header.jpg') no-repeat center top / cover;
+	padding-top: 5px;
+	color: #fff;;
+	padding-bottom: 100px;
+}
+header a {
+	color: #fff;
+}
+.logo {
+	margin-right: 10px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	font-size: 25px;
+	letter-spacing: 0.1em;
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #FF8C00;
+}
+
+.menu li {
+	margin-right: 40px;
+}
+
+.tel {
+	
+	font-size: 25px;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+
+}
+
+.ban {
+	display: flex;
+	align-items: center;
+}
+/* Конец головы */
+
+/* Начало секции */
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.description p {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
+}
+
+.desc-left{
+	width: 567px;
+}
+.desc-right {
+margin-top: 100px;
+}
+/* Конец секции */
+
+/*  Начало: Cекция "Задайте вопрос" */
+.input {
+	background: url('../img/png5.jpg') no-repeat center top / cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 700px;
+	padding-left: 563px;
+}
+#square {
+	width: 800px;
+	height: 390px;
+	background: #FFE4E1;
+	border-radius: 40px;
+    border: 7px double #8B4513;
+}
+#square p {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.62em;
+	color: #696969;
+}
+#square p1 {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	line-height: 1.62em;
+	color: #696969;
+	margin-left: 100px;
+}
+#name {
+	
+    padding: 10px; 
+    margin-left: 90px;
+    margin-bottom: 20px;
+
+}
+#square p2 {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	line-height: 1.62em;
+	color: #696969;
+	margin-left: 100px;
+}
+#tel {  
+    padding: 10px; 
+    margin-left: 90px;
+}
+#question {
+    padding: 10px;
+    margin-left: 350px;
+    margin-top: -180px;
+}
+#square p3 {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	line-height: 1.62em;
+	color: #696969;
+    top: px;
+}
+/*  Конец: Cекция "Задайте вопрос" */
+
+/*  Начало подвала */
+.footer {
+	background: url('../img/footer.jpg') no-repeat center top / cover;
+	padding-top: 80px;
+	font-size: 15px;
+	font-family: 'Roboto Slab', serif;
+	color: #808080
+}
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.description a {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
+	color: #808080
+}
+.foot-left {
+	padding-right: 30px;
+	padding-left: 200px;
+	padding-bottom: 80px;
+}
+.foot-left li a:hover {
+	border-bottom: 1px solid black;
+
+}
+.foot-right li a:hover {
+	border-bottom: 1px solid black;
+
+}
+.foot-right {
+	padding-right: 550px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-top: -3px;
+}
+.foot-left2 {
+	padding-right: 30px;
+	padding-left: 200px;
+	padding-top: -90px;
+}
+.foot-right2 {
+	padding-right: 600px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-top: -3px;
+}
+/*  Конец подвала */

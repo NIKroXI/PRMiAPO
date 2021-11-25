@@ -1,0 +1,115 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+/* Начало головы */
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 1500px;
+	margin: 0 auto; 
+}
+.header {
+	background: url('../img/header.jpg') no-repeat center top / cover;
+	padding-top: 5px;
+	color: #fff;;
+	padding-bottom: 100px;
+}
+header a {
+	color: #fff;
+}
+.logo {
+	margin-right: 10px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	font-size: 25px;
+	letter-spacing: 0.1em;
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #FF8C00;
+}
+
+.menu li {
+	margin-right: 40px;
+}
+
+.tel {
+	
+	font-size: 25px;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+
+}
+
+.ban {
+	display: flex;
+	align-items: center;
+}
+/* Конец головы */
+.authorization {
+	display: flex;
+	width: 100%;
+}
+.p1{
+	width: 90%;
+}
+.p1 img{
+	width: 450px;
+	height: 500px;
+	margin: 180px 0 0 150px;
+}
+.p2{
+	width: 10%;
+	color: white;
+}
+.p2{
+	width: 100%;
+	background: #2F4F4F;
+}
+.bp2{
+	color: white;
+    margin: 200px 0 0 300px;
+}
+.bp2 input{
+	width: 	400px;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.bp2 button{
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+  width: 500px;
+  height: 30px;
+} 
+.bp2 button:hover{
+ background: rgb(53, 167, 110); 
+}
+.bp2 button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.bp2 a{
+	text-decoration: none;	
+	color: white;
+	margin-left: 10px;
+}
